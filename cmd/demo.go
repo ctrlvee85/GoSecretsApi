@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/GoSecretsAPI/secret"
+	"GoSecretsAPI/secret"
 	"fmt"
 )
 
 func main() {
-	v := secret.Memory("frhivuwefher")
+	v := secret.Memory("hhhhh")
 	err := v.Set("anexamplekey", "a value of strings")
 	if err != nil {
 		panic(err)
